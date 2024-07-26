@@ -8,19 +8,19 @@ function Landing() {
             {["we create","eye-opening","presentations"].map((items,index)=>{
                 return(
                     <div className='masker'>
-                        <div className='flex items-center w-fit'>
-                            {index === 1 && (<p className='w-10 h-10 bg-orange-700'></p>)}
-                            <h1 className='text-[170px] uppercase font-Grotesk leading-[125px]'>{items}</h1>
+                        <div className='flex items-baseline w-fit'>
+                            {index === 1 && (<p className='w-[8.9vw] h-[5.9vw] bg-orange-700 rounded-lg mr-[0.9vw]'></p>)}
+                            <h1 className='text-[9vw] uppercase font-Grotesk leading-[6.7vw]'>{items}</h1>
                         </div>
                     </div>
                 )
             })}
         </div>
-        <div className='border-[#b2b2b2] border-t-[0.5px] mt-36 px-[68px] py-[20px] text-xl flex justify-between'>
-            <p>For public and private companies</p>
+        <div className='border-[#b2b2b2] border-t-[0.5px] mt-36 px-[68px] py-[20px] text-xl grid grid-cols-4'>
+            <p className='col-span-2'>For public and private companies</p>
             <p>From the first pitch to IPO</p>
-            <div className='flex items-center gap-2'>
-                <div className='uppercase py-2 px-5 border-[1px] border-zinc-900 rounded-full'>Start the project</div>
+            <div className='flex justify-end items-center gap-2'>
+                <div className='uppercase py-[0.2vw] px-[0.7vw] border-[1px] text-md border-zinc-900 rounded-full'>Start the project</div>
                 <div className='w-10 h-10 border-zinc-900 border-[1px] rounded-full flex justify-center items-center'><ArrowOutwardIcon /></div>
             </div>
 
