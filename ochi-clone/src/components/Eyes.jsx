@@ -8,8 +8,8 @@ function Eyes() {
       let mouseX = e.clientX;
       let mouseY = e.clientY;
 
-      let deltaX = mouseX
-      let deltaY = mouseY
+      let deltaX = window.innerWidth/2 - mouseX
+      let deltaY = window.innerHeight/2 - mouseY
 
       const angle = Math.atan2(deltaY, deltaX) * (180/Math.PI)
       setRotate(angle)
@@ -29,9 +29,9 @@ function Eyes() {
           </div>
           <div className='bg-white w-[13vw] h-[13vw] rounded-full relative'>
             <div className='bg-black w-3/5 h-3/5 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
-            {/* <div style={{transform: `translate(-50%, -50%) rotate(${rotate}deg)`}} className='line w-full h-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+              <div style={{transform: `translate(-50%, -50%) rotate(${rotate}deg)`}} className='w-full h-10 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
                 <div className='bg-white w-7 h-7 rounded-full'></div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
