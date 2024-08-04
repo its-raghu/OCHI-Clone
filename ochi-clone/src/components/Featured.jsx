@@ -11,7 +11,7 @@ function Featured() {
               <div className='bg-black w-3 h-3 rounded-full'></div>
               <p>FYDE</p>
             </div>
-            <div className='w-full h-[38vw] bg-[#C4C4C5] rounded-2xl'></div>
+            <div className='w-full h-[38vw] bg-[#C4C4C5] rounded-2xl hover:scale-95 ease-in-out duration-1000'></div>
             {["audit","copywriting","sales desk","slides design"].map((items, index)=>{
               return(
                 <button className='border-[1px] border-gray-500 px-3 py-1 mr-3 mt-4 uppercase font-Neue text-xl rounded-full'>{items}</button>
@@ -24,7 +24,7 @@ function Featured() {
               <div className='bg-black w-3 h-3 rounded-full'></div>
               <p>VISE</p>
             </div>
-            <div className='w-full h-[38vw] bg-[#19181E] rounded-2xl'></div>
+            <div className='w-full h-[38vw] bg-[#19181E] rounded-2xl hover:scale-95 ease-in-out duration-1000'></div>
             {["agency","company preparations"].map((items, index)=>{
               return(
                 <button className='border-[1px] border-gray-500 px-3 py-1 mr-3 mt-4 uppercase font-Neue text-xl rounded-full'>{items}</button>
@@ -39,7 +39,7 @@ function Featured() {
               <div className='bg-black w-3 h-3 rounded-full'></div>
               <p>TRAWA</p>
             </div>
-            <div className='w-full h-[38vw] bg-[#D8D8D8] rounded-2xl'></div>
+            <div className='w-full h-[38vw] bg-[#D8D8D8] rounded-2xl hover:scale-95 ease-in-out duration-1000'></div>
             {["brand identity","design research","investor deck"].map((items, index)=>{
               return(
                 <button className='border-[1px] border-gray-500 px-3 py-1 mr-3 mt-4 uppercase font-Neue text-xl rounded-full'>{items}</button>
@@ -52,7 +52,7 @@ function Featured() {
               <div className='bg-black w-3 h-3 rounded-full'></div>
               <p>PREMIUM BLEND</p>
             </div>
-            <div className='w-full h-[38vw] bg-[#211F21] rounded-2xl'></div>
+            <div className='w-full h-[38vw] bg-[#211F21] rounded-2xl hover:scale-95 ease-in-out duration-1000'></div>
             {["branded template"].map((items, index)=>{
               return(
                 <button className='border-[1px] border-gray-500 px-3 py-1 mr-3 mt-4 uppercase font-Neue text-xl rounded-full'>{items}</button>
