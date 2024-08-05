@@ -3,7 +3,7 @@ import Homepage from "../assets/Homepage.jpg";
 
 function About() {
   return (
-    <div className='bg-[#CDEA68] font-Neue'>
+    <div data-scroll data-scroll-speed=".4" className='bg-[#CDEA68] rounded-3xl font-Neue'>
         <div className='w-'>
             <h1 className='text-[3.6vw] leading-[4vw] px-16 py-28 pb-14'>Ochi is a strategic partner for fast-growing tech<br>
             </br> businesses that need to raise funds, sell products,<br>

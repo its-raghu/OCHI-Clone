@@ -2,7 +2,7 @@ import React from 'react'
 
 function Featured() {
   return (
-      <div className='w-full bg-white rounded-t-3xl'>
+      <div className='w-full rounded-t-3xl'>
         <div className='px-14 pt-24 pb-7 font-Neue text-[3.5vw] border-b-[1px] border-zinc-500'>Featured projects</div>
 
         <div className='w-full h-screen flex gap-4 p-16'>
