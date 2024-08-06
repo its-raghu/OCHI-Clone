@@ -5,7 +5,7 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 function Landing() {
     
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-0.6" className='w-full h-screen pt-1'>
+    <div data-scroll data-scroll-section data-scroll-speed="-0.4" className='w-full h-screen pt-1'>
         <div className='mt-48 ml-16'>
             {["we create","eye-opening","presentations"].map((items,index)=>{
                 return(
