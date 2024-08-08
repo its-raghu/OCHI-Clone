@@ -8,6 +8,7 @@ import Featured from './components/Featured'
 import Cards from './components/Cards'
 import Footer from './components/Footer'
 import LocomotiveScroll from 'locomotive-scroll';
+import Button from './components/Test'
 
 
 
@@ -25,6 +26,7 @@ const locomotiveScroll = new LocomotiveScroll();
       <Featured />
       <Cards />
       <Footer />
+      <Button />
     </div>
   )
 }
