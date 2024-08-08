@@ -5,7 +5,7 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 function Landing() {
     
   return (
-    <div data-scroll data-scroll-section data-scroll-speed="-0.4" className='w-full h-screen pt-1'>
+    <div data-scroll data-scroll-section data-scroll-speed="-0.3" className='w-full h-screen pt-1'>
         <div className='mt-48 ml-16'>
             {["we create","eye-opening","presentations"].map((items,index)=>{
                 return(
@@ -22,7 +22,7 @@ function Landing() {
             <p>For public and private companies</p>
             <p>From the first pitch to IPO</p>
             <div className='flex justify-end items-center gap-2'>
-                <div className='uppercase py-[0.2vw] px-[0.7vw] border-[1px] text-md border-zinc-900 rounded-full hover:bg-black '>Start the project</div>
+                <div className='uppercase py-[0.2vw] px-[0.7vw] border-[1px] text-md border-zinc-900 rounded-full '>Start the project</div>
                 <div className='w-10 h-10 border-zinc-900 border-[1px] rounded-full flex justify-center items-center'><ArrowOutwardIcon /></div>
             </div>
 
